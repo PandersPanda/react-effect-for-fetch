@@ -4,6 +4,7 @@ import UsersSection from './sections/Users'
 import './App.css'
 
 function App() {
+
   return (
     <div className="main-layout">
       <ArtsSection />
