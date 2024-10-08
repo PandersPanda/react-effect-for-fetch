@@ -1,12 +1,14 @@
-function FavouriteSlipsList(){
-
+function FavouriteSlipsList(favourites){
+    console.log(favourites)
     return (
        <section className="favourtite-slips-list">
         <h3>Favourite Advice Slips</h3>
         <ul>
-          <li>Measure twice, cut once.</li>
-          <li>Don't let the bastards grind you down.</li>
-          <li>Always the burrito.</li>
+          {favourites.favorites.map((slip, i) => (
+            <li key={i}>
+              {slip}
+            </li>
+          ))}
         </ul>
       </section>
     )

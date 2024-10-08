@@ -2,7 +2,7 @@ import PublicationHistoryList from "./PublicationHistoryList"
 
 function ArtListItem(art){
     
-    console.log(art.artItem)
+    //console.log(art.artItem)
     return (
         <li>
             <div className="frame">

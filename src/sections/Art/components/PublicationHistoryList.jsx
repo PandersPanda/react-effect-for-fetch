@@ -1,5 +1,5 @@
 function PublicationHistoryList(history){
-    console.log(history)
+    //console.log(history)
     return (
         <li>
             {history.publicationHistory}
